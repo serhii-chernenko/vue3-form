@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page {
+  @apply h-screen flex items-center justify-center gap-3;
+}
+h1 {
+  @apply mb-4 text-2xl font-bold;
+}
+form {
+  @apply w-96 p-10 bg-gray-100 rounded shadow-lg shadow-gray-300;
+}
+
+label {
+  @apply block mb-4;
+}
+
+input {
+  @apply border border-gray-400 rounded p-2 block w-full;
+}
+
+button {
+  @apply bg-blue-700 text-white px-6 py-3 rounded;
+}
+.result {
+  @apply bg-gray-900 rounded text-white p-10 shadow-lg shadow-gray-900;
+}
+
+pre {
+  @apply my-4 max-w-full overflow-x-auto;
+}
+
+.result h2 {
+  @apply text-xl font-bold;
+}
+
+.result button {
+  @apply bg-gray-700 text-white px-2 py-1 rounded;
+}
+
+.result,
+form {
+  min-height: 350px;
+  max-width: 400px;
+}
