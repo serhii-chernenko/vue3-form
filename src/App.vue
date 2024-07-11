@@ -1,9 +1,10 @@
-<script setup>
+<script setup lang="ts">
 import { ref } from "vue";
 import { faker } from "@faker-js/faker";
+import LoginForm from "@/components/LoginForm.vue";
+import type { UserData } from "@/types/user.d";
 
-import LoginForm from "./components/LoginForm.vue";
-const userData = ref({
+const userData = ref<UserData>({
   username: "",
   password: "",
 });

@@ -18,5 +18,5 @@ export default defineConfig(({mode}) => ({
             "@": fileURLToPath(new URL("./src", import.meta.url)),
         },
     },
-    base: mode === 'production' ? '/vue3-toggle-input/' : '/'
+    base: mode === 'production' ? '/vue3-form/' : '/'
 }));
