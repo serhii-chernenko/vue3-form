@@ -1,0 +1,7 @@
+bun.lockb
+yarn.lock
+package-lock.json
+node_modules
+.idea
+.DS_Store
+dist

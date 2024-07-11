@@ -4,10 +4,10 @@
   "license": "UNLICENSED",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "bunx --bun vite",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
-    "build-only": "vite build",
+    "build-only": "bunx --bun vite build",
     "type-check": "vue-tsc --build --force",
     "test:unit": "vitest --environment jsdom",
     "devtools": "./node_modules/.bin/vue-devtools",
